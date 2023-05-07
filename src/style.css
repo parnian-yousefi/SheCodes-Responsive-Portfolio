@@ -1,8 +1,82 @@
+:root {
+  --primary-color: #7f3ca5;
+  --secondary-color: #ae89c4;
+  --heading-font: "Anton", sans-serif;
+  --second-font: "Asap Condensed", sans-serif;
+}
+
 h1 {
   font-family: "Anton", sans-serif;
+}
+
+h2 {
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: 400;
 }
 
 p {
   font-family: "Asap Condensed", sans-serif;
   font-weight: 300;
+}
+
+#hero {
+  text-align: center;
+  padding: 10% 5%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+#profile {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 200px;
+  padding-bottom: 10px;
+}
+
+#projects {
+  height: 100%;
+}
+
+#hero a {
+  width: 200px;
+  margin: 5px 10px;
+}
+
+#primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--second-font);
+  transition: all 0.2s ease-in;
+}
+
+#primary-btn:hover {
+  color: black;
+  border: var(--primary-color) 1px solid;
+  background-color: #eeeeee;
+}
+
+#secondary-btn {
+  border: var(--primary-color) 1px solid;
+  font-family: var(--second-font);
+  transition: all 0.2s ease-in;
+}
+
+#secondary-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero {
+    text-align: center;
+    padding: 30% 5%;
+    height: 100%;
+    background-color: #eeeeee;
+  }
+  #hero a {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+  }
 }
