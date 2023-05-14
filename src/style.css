@@ -26,6 +26,15 @@ p {
   padding-bottom: 10px;
 }
 
+.social i {
+  color: var(--primary-color);
+  font-size: 10rem;
+}
+
+.social {
+  text-align: center;
+}
+
 #hero {
   text-align: center;
   padding: 10% 5%;
@@ -107,5 +116,9 @@ p {
 
   #projects .description {
     padding: 0;
+  }
+
+  .social i {
+    font-size: 5rem;
   }
 }
