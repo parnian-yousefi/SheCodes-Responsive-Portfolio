@@ -35,6 +35,14 @@ p {
   text-align: center;
 }
 
+.nav-item .active {
+  color: var(--primary-color) !important;
+}
+
+.nav-item {
+  color: var(--secondary-color) !important;
+}
+
 #hero {
   text-align: center;
   padding: 10% 5%;
