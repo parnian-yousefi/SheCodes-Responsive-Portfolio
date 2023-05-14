@@ -20,6 +20,12 @@ p {
   font-weight: 300;
 }
 
+.profile {
+  border-radius: 50%;
+  max-width: 200px;
+  padding-bottom: 10px;
+}
+
 #hero {
   text-align: center;
   padding: 10% 5%;
@@ -27,12 +33,9 @@ p {
   background-color: #eeeeee;
 }
 
-#profile {
+.centered {
   display: block;
   margin: auto;
-  border-radius: 50%;
-  max-width: 200px;
-  padding-bottom: 10px;
 }
 
 #hero a {
