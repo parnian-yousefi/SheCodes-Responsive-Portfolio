@@ -5,6 +5,10 @@
   --second-font: "Asap Condensed", sans-serif;
 }
 
+body {
+  background-color: #eeeeee;
+}
+
 h1 {
   font-family: "Anton", sans-serif;
 }
@@ -44,15 +48,13 @@ p {
 }
 
 #hero {
-  text-align: center;
-  padding: 10% 5%;
-  height: 100%;
-  background-color: #eeeeee;
+  padding: 5% 5%;
 }
 
 .centered {
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 #hero a {
@@ -128,6 +130,12 @@ p {
   #hero a {
     display: block;
     margin: 20px auto;
+  }
+
+  #me {
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 
   #projects .description {
